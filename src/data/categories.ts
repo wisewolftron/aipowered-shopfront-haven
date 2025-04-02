@@ -1,0 +1,91 @@
+
+import { CategoryType } from '@/types';
+
+export const categories: CategoryType[] = [
+  {
+    id: 'electronics',
+    name: 'Electronics',
+    slug: 'electronics',
+    image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'clothing',
+    name: 'Clothing',
+    slug: 'clothing',
+    image: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    featured: true,
+    popular: true,
+  },
+  {
+    id: 'furniture',
+    name: 'Furniture',
+    slug: 'furniture',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    featured: true,
+  },
+  {
+    id: 'kitchen',
+    name: 'Kitchen',
+    slug: 'kitchen',
+    image: 'https://images.unsplash.com/photo-1556911220-bda9f7f7597e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    popular: true,
+  },
+  {
+    id: 'beauty',
+    name: 'Beauty',
+    slug: 'beauty',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    popular: true,
+  },
+  {
+    id: 'outdoors',
+    name: 'Outdoors',
+    slug: 'outdoors',
+    image: 'https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    new: true,
+  },
+  {
+    id: 'sports',
+    name: 'Sports',
+    slug: 'sports',
+    image: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    new: true,
+  },
+  {
+    id: 'books',
+    name: 'Books',
+    slug: 'books',
+    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+  },
+  {
+    id: 'toys',
+    name: 'Toys',
+    slug: 'toys',
+    image: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    new: true,
+  },
+  {
+    id: 'lifestyle',
+    name: 'Lifestyle',
+    slug: 'lifestyle',
+    image: 'https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    featured: true,
+  },
+  {
+    id: 'tech',
+    name: 'Tech Gadgets',
+    slug: 'tech-gadgets',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    featured: true,
+    new: true,
+  },
+  {
+    id: 'home',
+    name: 'Home Decor',
+    slug: 'home-decor',
+    image: 'https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    popular: true,
+  },
+];
