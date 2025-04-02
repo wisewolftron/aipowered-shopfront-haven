@@ -16,7 +16,7 @@ export const testimonials: TestimonialType[] = [
     role: 'Software Engineer',
     avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
     rating: 5,
-    comment: 'As a tech enthusiast, I'm always looking for detailed product information. ShopHub's AI descriptions provide insights that other retailers don't. I've made several purchases and have been impressed with the accuracy of the product recommendations.',
+    comment: 'As a tech enthusiast, I\'m always looking for detailed product information. ShopHub\'s AI descriptions provide insights that other retailers don\'t. I\'ve made several purchases and have been impressed with the accuracy of the product recommendations.',
   },
   {
     id: '3',
