@@ -15,6 +15,7 @@ export interface ProductType {
   reviews: ReviewType[];
   specifications: Record<string, string>;
   createdAt: string;
+  quantity?: number; // Add optional quantity property for cart items
 }
 
 export interface ReviewType {
